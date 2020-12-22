@@ -17,7 +17,7 @@ type propTypes = {
 export default function TopBar({handleFilter, filter}: propTypes): JSX.Element {
     return (
         <div className="head">
-            <Typography.Title>Bad Breaking Characters</Typography.Title>
+            <Typography.Title>Breaking Bad Characters</Typography.Title>
             <Row justify={"space-between"} style={{width: "100%"}}>
                 <Col>
                     <Input placeholder="Enter name" onChange={e => handleFilter('name', e.target.value)}
